@@ -142,8 +142,8 @@ function Missile(oneMissile){
 
 function Trail(atrail){
 	atrail.active = true;
-	atrail.width = 2;
-	atrail.height = 2;
+	atrail.width = 1;
+	atrail.height = 1;
 	atrail.draw = function(){
 		context.fillStyle = atrail.color;
 		context.fillRect(this.x - this.width/2, this.y - this.width/2, this.width, this.height);
